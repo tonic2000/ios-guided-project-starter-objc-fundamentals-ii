@@ -25,10 +25,6 @@
     
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    [self showSaveTipAlert];
-}
-
 - (void)calculateTip {
     // TODO: Calculate the tip using the values from the UI
 }
