@@ -62,8 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				467F766323F2253000A284A5 /* View Controller */,
-				467F766423F2253800A284A5 /* Model */,
-				467F766523F2253E00A284A5 /* Model Controller */,
 				467F766723F2256000A284A5 /* Storyboards */,
 				467F766623F2255000A284A5 /* Resources */,
 			);
@@ -77,20 +75,6 @@
 				461E8AB823EC97E200C1F2B7 /* LSITipViewController.m */,
 			);
 			path = "View Controller";
-			sourceTree = "<group>";
-		};
-		467F766423F2253800A284A5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		467F766523F2253E00A284A5 /* Model Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 		467F766623F2255000A284A5 /* Resources */ = {
