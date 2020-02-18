@@ -1,1 +1,1 @@
-# ios-guided-project-starter-objc-fundamentals-ii
+# Objective-C Fundamentals II - Starter Project (Tips)
