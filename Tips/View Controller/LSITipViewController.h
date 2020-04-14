@@ -8,9 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+// Forward Class Declaration
+@class LSITipController;
+
 NS_ASSUME_NONNULL_BEGIN
 
+
 @interface LSITipViewController : UIViewController
+
+//Public property
+// Dependency injection allows us to pass in the model controller 
+@property (nonatomic) LSITipController* tipController;
+// Public IBOutlet (Similar to UITableViewCell's imageView)
 
 @end
 

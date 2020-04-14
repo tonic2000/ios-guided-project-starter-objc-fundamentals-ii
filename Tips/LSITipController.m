@@ -21,13 +21,16 @@
 
 @implementation LSITipController
 
-- (instancetype) init {
+- (instancetype)init {
     self = [super init];
     if (self) {
         _internalTips = [[NSMutableArray alloc] init];
+        // TEST DATA (Remove later)
+        LSITip *tip = [[LSITip alloc] initWithTotal:84.45 splitCount:2 tipPercentage:20 name:@"Brick oven pizza"];
+        [self addTip:tip];
     }
-    return self ;
-     }
+    return self;
+}
     // Create a computed property for the tips property, so that no
     // one modifies the collection without using our addTip/removeTip methods
     - (NSArray<LSITip *> *)tips {
